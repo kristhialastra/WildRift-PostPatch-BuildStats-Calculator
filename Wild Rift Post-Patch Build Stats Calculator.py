@@ -47,15 +47,24 @@ def print_build_summary():
 items = {
     "Physical": {
         1: Item("Bloodthirster", {"AD": (None, None), "CRIT%": (None, None)}),
-        2: Item("Manamune", {"AD": (None, None), "MAX MANA": (None, None), "ABILITY HASTE": (None, None)})
+        2: Item("Manamune", {"AD": (None, None), "MAX MANA": (None, None), "ABILITY HASTE": (None, None)}),
+        3: Item("Mortal Reminder", {"AD": (None, None), "CRIT%": (None, None)}),
+        4: Item("Black Cleaver", {"MAX HEALTH": (None, None), "AD": (None, None), "ABILITY HASTE": (None, None)}),
+        5: Item("Trinity Force", {"MAX HEALTH": (None, None), "AD": (None, None), "AS": (None, None), "ABILITY HASTE": (None, None)})
     },
     "Magic": {
         1: Item("Morellonomicon", {"MAX HEALTH": (None, None), "AP": (None, None), "M. PEN": (None, None), "ABILITY HASTE": (None, None)}),
-        2: Item("Riftmaker", {"MAX HEALTH": (None, None), "AP": (None, None), "M. PEN": (None, None), "ABILITY HASTE": (None, None)})
+        2: Item("Riftmaker", {"MAX HEALTH": (None, None), "AP": (None, None), "M. PEN": (None, None), "ABILITY HASTE": (None, None)}),
+        3: Item("Imperial Mandate", {"MAX HEALTH": (None, None), "AP": (None, None), "ABILITY HASTE": (None, None)}),
+        4: Item("Crystalline Reflector", {"MAX HEALTH": (None, None), "AR": (None, None), "AP": (None, None), "M. PEN": (None, None)}),
+        5: Item("Luden's Echo", {"AP": (None, None), "M. PEN": (None, None), "MAX MANA": (None, None), "ABILITY HASTE": (None, None)})
     },
     "Defense": {
         1: Item("Thornmail", {"MAX HEALTH": (None, None), "AR": (None, None)}),
-        2: Item("Dawnshroud", {"MAX HEALTH": (None, None), "AR": (None, None), "MR": (None, None)})
+        2: Item("Dawnshroud", {"MAX HEALTH": (None, None), "AR": (None, None), "MR": (None, None)}),
+        3: Item("Guardian Angel", {"AD": (None, None), "AR": (None, None)}),
+        4: Item("Sunfire Aegis", {"MAX HEALTH": (None, None), "ABILITY HASTE": (None, None)}),
+        5: Item("Zeke's Convergence", {"MAX HEALTH": (None, None), "AR": (None, None), "MAX MANA": (None, None), "ABILITY HASTE": (None, None)})
     },
 }
 
